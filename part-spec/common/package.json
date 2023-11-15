@@ -1,5 +1,5 @@
 {
-    "$id": "https://github.com/edatasheets/edatasheets.github.io/blob/main/part-spec/common/package.json",
+    "$id": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/common/package.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Specifications of a package",
     "package": {
