@@ -9,7 +9,7 @@
 	"properties": {
 		"componentID": {
 			"description": "methods for identifying the version of the digital datasheet",
-			"$ref": "../common/componentID.json#/componentID"
+			"$ref": "../common/componentID.json"
 		},
         "function": {
             "description": "intended function of a connector",
@@ -43,7 +43,7 @@
         "pitch": {
             "description": "distance from the center of one contact on the connector to the center of the next contact",
             "comment": "units of mm",
-            "$ref": "../common/unit.json#/unit"
+            "$ref": "../common/unit.json"
         },
         "keying": {
             "description": "property describing whether a connector has an asymmetry to prevent it from being plugged in the wrong direction",
@@ -76,20 +76,20 @@
 				"coreProperties": {
 					"description": "core component properties as definied by the specific component spec file. These properties are described by the common part of the part number",
 					"example": "this might include everything about an MCU other than flash size",
-					"$ref": "../common/externalFile.json#/externalFile"
+					"$ref": "../common/externalFile.json"
 				},
 				"additionalCoreProperities": {
 					"description": "core component properties as definied by the specific component spec file. These properties are described by the changing part of the part number",
 					"example": "this might include the MCU flash size",
-					"$ref": "../common/externalFile.json#/externalFile"
+					"$ref": "../common/externalFile.json"
 				},
 				"pins": {
 					"description": "pin properties specified by the pin spec file",
-					"$ref": "../common/externalFile.json#/externalFile"
+					"$ref": "../common/externalFile.json"
 				},
 				"package": {
 					"description": "package information specified by the package spec file",
-					"$ref": "../common/externalFile.json#/externalFile"
+					"$ref": "../common/externalFile.json"
 				}
 			}
 		}
