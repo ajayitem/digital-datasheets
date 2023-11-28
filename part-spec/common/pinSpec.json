@@ -42,7 +42,7 @@
                 "description": "list of function objects that can apply to an individual pin",
                 "type": "array",
                 "items": {
-                    "$ref": "#/$defs/pinFunction"
+                    "$ref": "#/$defs/functionProperties"
                 }
             },
             "vihMin": {
@@ -142,11 +142,12 @@
                 "items": {
                     "$ref": "#/$defs/externalComponents"
                 }
-            }
-        },
-        "pinPaths": {
+                ,
+           "pinPaths": {
             "description": "information on pin paths - pins associated with each component in a multi-component part",
             "$ref": "../common/pinPaths.json#/pinPaths"
+        }
+            }
         }
     },
     "$defs": {
@@ -191,7 +192,7 @@
                 }
             }
         },
-        "pinFunction": {
+        "functionProperties": {
             "type": "object",
             "properties": {
                 "perFunctionName": {

@@ -19,11 +19,11 @@
         "outputVoltage": {
             "description": "output voltage level of level shifter",
             "comment": "units of volts",
-            "$ref": "../common/unit.json#/unit"
+            "$ref": "../common/unit.json"
         },
         "currentConsumption": {
             "description": "current used by device in various power modes",
-            "$ref": "../common/currentConsumption.json#/currentConsumption"
+            "$ref": "../common/currentConsumption.json"
         },
 		"pins": {
 			"description": "array of pin objects with associated properties",
