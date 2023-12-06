@@ -104,13 +104,24 @@
         },
         "pTot": {
             "description": "maximum power dissipation of a forward biased diode",
-            "$comment": "conditions include temeprature",
+            "$comment": "conditions include temperature",
             "$ref": "../common/conditionalProperty.json"
         },
         "ifVsVf": {
             "description": "graph of forward current (If) vs forward voltage (VfTyp)",
             "$ref": "../common/graph.json"
         },
+        "pins": {
+			"description": "array of pin objects with associated properties",
+			"type": "array",
+			"items": {
+				"$ref": "../common/pinSpec.json#/pinSpec"
+			}
+		},
+		"package": {
+			"description": "component package information",
+			"$ref": "../common/package.json#/package"
+		},
 		"externalFileMap": {
 			"description": "external files that describe key component properties. External files can be used in lieu of defining core properties, pins, and package informatoin in the same file",
 			"$ref": "#/$defs/externalFileMap"
@@ -121,13 +132,21 @@
 			"type": "object",
 			"properties": {
 				"coreProperties": {
-					"description": "core component properties as definied by the specific component spec file. These properties are described by the common part of the part number",
+					"description": "core component properties as defined by the specific component spec file. These properties are described by the common part of the part number",
 					"example": "this might include everything about an MCU other than flash size",
 					"$ref": "../common/externalFile.json"
 				},
 				"additionalCoreProperities": {
-					"description": "core component properties as definied by the specific component spec file. These properties are described by the changing part of the part number",
+					"description": "core component properties as defined by the specific component spec file. These properties are described by the changing part of the part number",
 					"example": "this might include the MCU flash size",
+					"$ref": "../common/externalFile.json"
+				},
+				"pins": {
+					"description": "pin properties specified by the pin spec file",
+					"$ref": "../common/externalFile.json"
+				},
+				"package": {
+					"description": "package information specified by the package spec file",
 					"$ref": "../common/externalFile.json"
 				}
 			}
