@@ -1,5 +1,5 @@
 {
-    "$id": "https://github.com/edatasheets/digital-datasheets/blob/main/part-spec/clock/clock.json",
+    "$id": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/clock/clock.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "clock",
     "type": "object",
@@ -7,7 +7,7 @@
         "fixedFrequency": {
             "description": "clock frequency value if the clock has a fixed frequency",
             "comment": "units of Hz",
-            "$ref": "../common/unit.json#/unit"
+            "$ref": "https://github.com/edatasheets/digital-datasheets/blob/main/part-spec/common/unit.json#/unit"
         },
         "numberClockOutputs": {
             "description": "number of clock outputs in a clock IC",
