@@ -1,5 +1,5 @@
 {
-	"$id": "https://github.com/ajayitem/digital-datasheets/tooling_proposed_changes_2/part-spec/component.json",
+	"$id": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/component.json",
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"type": "object",
 	"title": "component",
