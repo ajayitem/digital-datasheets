@@ -9,7 +9,7 @@
 	"properties": {
 		"componentID": {
 			"description": "methods for identifying the version of the digital datasheet",
-			"$ref": "./common/componentID.json"
+			"$ref": "./common/componentID.json#/componentID"
 		},
 		"coreProperties": {
 			"description": "core component properties as definied by the specific component spec file",
