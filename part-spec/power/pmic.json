@@ -75,8 +75,8 @@
                 "$ref": "../common/componentProtectionThresholds.json#/componentProtectionThresholds"
             }
         },
-    "additionalProperties": false,
-    }
+    "additionalProperties": false
+    },
     "$defs": {
         "instances": {
             "type": "object",
