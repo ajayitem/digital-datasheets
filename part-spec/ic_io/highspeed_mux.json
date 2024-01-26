@@ -2,7 +2,7 @@
     "$id": "https://github.com/edatasheets/digital-datasheets/blob/main/part-spec/ic_io/high_speed_mux.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "high speed mux",
-    "high speed mux": {
+    "highspeed_mux": {
         "type": "object",
         "properties": {
             "muxRatio": {
