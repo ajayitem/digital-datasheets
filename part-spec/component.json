@@ -9,11 +9,11 @@
 	"properties": {
 		"componentID": {
 			"description": "methods for identifying the version of the digital datasheet",
-			"$ref": "./common/componentID.json#/componentID"
+			"$ref": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/common/componentID.json#/componentID"
 		},
 		"coreProperties": {
 			"description": "core component properties as definied by the specific component spec file",
-			"$ref": "./common/coreProperties.json#/coreProperties"
+			"$ref": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/common/coreProperties.json#/coreProperties"
 		},
 		"pins": {
 			"description": "array of pin objects with associated properties",
