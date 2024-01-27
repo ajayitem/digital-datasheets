@@ -1,5 +1,5 @@
 {
-	"$id": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/component.json",
+	"$id": "https://raw.githubusercontent.com/edatasheets/digital-datasheets/main/part-spec/component.json",
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"type": "object",
 	"title": "component",
@@ -9,11 +9,11 @@
 	"properties": {
 		"componentID": {
 			"description": "methods for identifying the version of the digital datasheet",
-			"$ref": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/common/componentID.json#/componentID"
+			"$ref": "./common/componentID.json#/componentID"
 		},
 		"coreProperties": {
 			"description": "core component properties as definied by the specific component spec file",
-			"$ref": "https://github.com/ajayitem/digital-datasheets/blob/tooling_proposed_changes_2/part-spec/common/coreProperties.json#/coreProperties"
+			"$ref": "./common/coreProperties.json#/coreProperties"
 		},
 		"pins": {
 			"description": "array of pin objects with associated properties",
